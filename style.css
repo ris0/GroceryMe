@@ -1,0 +1,54 @@
+body {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: auto;
+  max-width: 300px;
+  display: block;
+}
+
+.items {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+.items li {
+  padding-bottom: 8px;
+}
+
+input[type=checkbox]:checked + label{
+  text-decoration: line-through;
+  color: gray;
+}
+
+input[type="text"], button {
+  font-size: inherit;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 1px solid lightgray;
+  max-width: 120px;
+  margin-left: 17px;
+}
+
+button {
+  border-radius: 4px;
+  border-color: green;
+  border-width: 1px;
+  background-color: green;
+  padding: 4px 16px;
+  color: #fff;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+.remove-checked {
+  margin-top: 50px;
+  color: #F47272;
+  display: block;
+}

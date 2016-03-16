@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Firebase Tutorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <!-- Add the Firebase here -->
+    <script src="https://cdn.firebase.com/js/client/2.4.1/firebase.js"></script>
+
+    <script src="script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>GroceryMe</h1>
+      <ul class="items">
+        <li id="ITEM_KEY_HERE"><input type="checkbox"><label>ITEM_NAME_HERE</label></li>
+      </ul>
+      <form id="add-new" action="#" method="post">
+        <input type="text" id="new-item" name="item" placeholder="Add item">
+        <button type="submit" name="button">Add</button>
+      </form>
+      <a href="#" class="remove-checked">[Remove checked items]</a>
+    </div>
+  </body>
+</html>
